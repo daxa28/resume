@@ -27,7 +27,7 @@
 }
 
 .left {
-  animation: myAnim 2s ease 0s 1 normal forwards;
+  /* animation: myAnim 2s ease 0s 1 normal forwards; */
   background: linear-gradient(347deg, #000059 0%, #5b6dff 100%);
   box-shadow: 5px 5px 10px 1px #000;
   color: #fff;
@@ -40,7 +40,7 @@
 }
 
 .right {
-  animation: myAnim2 2s ease 0s 1 normal forwards;
+  /* animation: myAnim2 2s ease 0s 1 normal forwards; */
   background: linear-gradient(347deg, #5b6dff 0%, #000059 100%);
   box-shadow: -5px 5px 10px 1px #000;
   color: #fff;

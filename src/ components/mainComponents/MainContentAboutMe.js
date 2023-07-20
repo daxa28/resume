@@ -1,8 +1,8 @@
 import React from "react";
-import classes from "./MainContentAmoutMe.module.css";
+import classes from "./MainContentAboutMe.module.css";
 import imgMe from "../../img/me.jpg";
 
-function MainContentAmoutMe() {
+function MainContentAboutMe() {
   return (
     <div className={classes.main}>
       <div></div>
@@ -47,4 +47,4 @@ function MainContentAmoutMe() {
   );
 }
 
-export default MainContentAmoutMe;
+export default MainContentAboutMe;

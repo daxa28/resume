@@ -4,7 +4,7 @@ import MainContentStack from "./mainComponents/MainContentStack";
 import MainBody from "./mainComponents/MainBody";
 import MainContentWhyIT from "./mainComponents/MainContentWhyIT";
 import MainSlider from "./mainComponents/MainSlider";
-import MainContentAmoutMe from "./mainComponents/MainContentAmoutMe";
+import MainContentAboutMe from "./mainComponents/MainContentAboutMe";
 
 function Main() {
   return (
@@ -14,7 +14,7 @@ function Main() {
       <MainBody />
       <MainContentWhyIT />
       <MainSlider />
-      <MainContentAmoutMe />
+      <MainContentAboutMe />
     </Fragment>
   );
 }

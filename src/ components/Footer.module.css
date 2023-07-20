@@ -1,0 +1,39 @@
+.footer {
+  color: white;
+  background: linear-gradient(347deg, #5b6dff 0%, #000059 100%);
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  box-shadow: 3px 0px 10px 4px #000;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 0 30px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 300;
+  text-shadow: 3px 3px 10px #000;
+}
+
+.footer_block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.footer_block a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon {
+  width: 40px;
+  margin: 20px auto 5px;
+}
+
+.icon img {
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 3px 3px 7px 0px #000;
+}

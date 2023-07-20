@@ -1,0 +1,32 @@
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.window {
+  overflow: hidden;
+}
+
+.all_pages_container {
+  display: flex;
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  align-items: center;
+}
+
+.arrow {
+  width: 5%;
+  font-size: 28px;
+  cursor: pointer;
+  color: gray;
+  transition: 1s;
+}
+
+.arrow:hover {
+  color: #fff;
+  transition: 1s;
+}

@@ -27,7 +27,6 @@
 }
 
 .left {
-  /* animation: myAnim 2s ease 0s 1 normal forwards; */
   background: linear-gradient(347deg, #000059 0%, #5b6dff 100%);
   box-shadow: 5px 5px 10px 1px #000;
   color: #fff;
@@ -40,7 +39,6 @@
 }
 
 .right {
-  /* animation: myAnim2 2s ease 0s 1 normal forwards; */
   background: linear-gradient(347deg, #5b6dff 0%, #000059 100%);
   box-shadow: -5px 5px 10px 1px #000;
   color: #fff;
@@ -97,22 +95,4 @@
   text-decoration: underline;
 }
 
-@keyframes myAnim {
-  0% {
-    transform: translateX(-300px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-@keyframes myAnim2 {
-  0% {
-    transform: translateX(300px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
+ 

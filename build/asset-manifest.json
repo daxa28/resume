@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.40e0d597.css",
-    "main.js": "/resume/static/js/main.8950b233.js",
+    "main.js": "/resume/static/js/main.de539170.js",
     "static/media/slider-2.jpg": "/resume/static/media/slider-2.db8058e39588abde04d9.jpg",
     "static/media/img-whyIT.jpg": "/resume/static/media/img-whyIT.5e83e8e8cbf3143d64d5.jpg",
     "static/media/slider-1.jpg": "/resume/static/media/slider-1.349fe301c45016f84d89.jpg",
@@ -17,10 +17,10 @@
     "static/media/gmail-icon.png": "/resume/static/media/gmail-icon.cd0aefb0483b7dbf8448.png",
     "index.html": "/resume/index.html",
     "main.40e0d597.css.map": "/resume/static/css/main.40e0d597.css.map",
-    "main.8950b233.js.map": "/resume/static/js/main.8950b233.js.map"
+    "main.de539170.js.map": "/resume/static/js/main.de539170.js.map"
   },
   "entrypoints": [
     "static/css/main.40e0d597.css",
-    "static/js/main.8950b233.js"
+    "static/js/main.de539170.js"
   ]
 }

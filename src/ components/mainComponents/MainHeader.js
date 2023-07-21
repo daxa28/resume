@@ -12,11 +12,17 @@ function MainHeader() {
           <br />и мне интересно развиваться в направлении информационных
           технологий.
           <p>
-          Образование: Высшее 
-          <br />График работы: Полный день
-          <br />Контактная информация: 
-          <br />email - osadasha201628@gmail.com
-          <br />telegram - t.me/DariaOsadchuk</p>
+            Образование: Высшее
+            <br />
+            График работы: Полный день
+            <br />
+            <br />
+            Контактная информация
+            <br />
+            email: osadasha201628@gmail.com
+            <br />
+            telegram: <a href="https://t.me/DariaOsadchuk">@DariaOsadchuk</a>
+          </p>
         </div>
         <div className={classes.avatar}>
           <img src={avatar} alt="avatar"></img>

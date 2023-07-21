@@ -24,6 +24,15 @@
   margin: 20px 0;
   line-height: 30px;
 }
+.title p a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title p a:hover {
+  text-shadow: 0 0 10px var(--blue-color);
+  color: var(--blue-color);;
+}
 
 .avatar {
   width: 150px;

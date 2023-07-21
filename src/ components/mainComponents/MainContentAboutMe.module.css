@@ -56,13 +56,3 @@
     opacity: 1;
   }
 }
-
-@media screen and (max-width: 1000px) {
-  .main {
-    display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
-  }
-  .main_block__content{
-    width: 700px;
-  }
-}

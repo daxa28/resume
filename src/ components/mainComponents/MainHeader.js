@@ -13,7 +13,10 @@ function MainHeader() {
           технологий.
           <p>
           Образование: Высшее 
-          <br />График работы: Полный день</p>
+          <br />График работы: Полный день
+          <br />Контактная информация: 
+          <br />email - osadasha201628@gmail.com
+          <br />telegram - t.me/DariaOsadchuk</p>
         </div>
         <div className={classes.avatar}>
           <img src={avatar} alt="avatar"></img>

@@ -4,7 +4,7 @@ import classes from "./MainContentStack.module.css";
 function MainContentStack() {
   return (
     <Fragment>
-      <div className={classes.title__stack}>Мой стек изучения</div>
+      <div className={classes.title}>Мой стек изучения</div>
       <div className={classes.block1}>
         <div className={classes.value}>HTML</div>
         <div className={classes.value}>CSS</div>

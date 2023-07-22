@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.e81fc6d5.css",
-    "main.js": "/resume/static/js/main.16b3618c.js",
+    "main.css": "/resume/static/css/main.99a2ffba.css",
+    "main.js": "/resume/static/js/main.c5c3b7ac.js",
     "static/media/slider-2.jpg": "/resume/static/media/slider-2.db8058e39588abde04d9.jpg",
     "static/media/img-whyIT.jpg": "/resume/static/media/img-whyIT.5e83e8e8cbf3143d64d5.jpg",
     "static/media/slider-1.jpg": "/resume/static/media/slider-1.349fe301c45016f84d89.jpg",
@@ -16,11 +16,11 @@
     "static/media/avatar.jpg": "/resume/static/media/avatar.1a3b46cc8bb1fcda53e4.jpg",
     "static/media/gmail-icon.png": "/resume/static/media/gmail-icon.cd0aefb0483b7dbf8448.png",
     "index.html": "/resume/index.html",
-    "main.e81fc6d5.css.map": "/resume/static/css/main.e81fc6d5.css.map",
-    "main.16b3618c.js.map": "/resume/static/js/main.16b3618c.js.map"
+    "main.99a2ffba.css.map": "/resume/static/css/main.99a2ffba.css.map",
+    "main.c5c3b7ac.js.map": "/resume/static/js/main.c5c3b7ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.e81fc6d5.css",
-    "static/js/main.16b3618c.js"
+    "static/css/main.99a2ffba.css",
+    "static/js/main.c5c3b7ac.js"
   ]
 }

@@ -4,6 +4,26 @@
 }
 
 html {
-  --blue-color: #000059;
+  --blue1-color: #000059;
+  --blue2-color: #5b6dff;
+
+  font-size: 16px;
 }
 
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}

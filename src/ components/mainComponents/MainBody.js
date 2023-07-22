@@ -9,8 +9,7 @@ import git_sql_docke_img from "../../img/img-git-sql-docker.png";
 function MainBody() {
   return (
     <div className={classes.main_body}>
-      <div></div>
-      <div>
+      <div className={classes.main_body_block}>
         <div className={classes.block_left}>
           <div className={`${classes.block_l} ${classes.left}`}>
             <div className={classes.block_img}>
@@ -226,7 +225,6 @@ function MainBody() {
           <div className={classes.block_r}></div>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

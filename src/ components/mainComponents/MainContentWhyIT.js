@@ -5,7 +5,6 @@ import img_WhyIT from "../../img/img-whyIT.jpg";
 function MainContentWhyIT() {
   return (
     <div className={classes.main}>
-      <div></div>
       <div className={classes.main_block}>
         <div className={classes.main_block__content}>
           <h3>Почему IT?</h3>
@@ -41,7 +40,6 @@ function MainContentWhyIT() {
           <img src={img_WhyIT} alt="img-WhyIT"></img>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

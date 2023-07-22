@@ -5,8 +5,7 @@ import avatar from "../../img/avatar.jpg";
 function MainHeader() {
   return (
     <div className={classes.main__header}>
-      <div></div>
-      <div className={classes.block_main_header}>
+      <div className={classes.main__header_block}>
         <div className={classes.title}>
           Меня зовут Дарья, мне 22 года
           <br />и мне интересно развиваться в направлении информационных
@@ -28,7 +27,6 @@ function MainHeader() {
           <img src={avatar} alt="avatar"></img>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

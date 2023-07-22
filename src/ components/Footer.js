@@ -6,7 +6,6 @@ import git_icon from "../img/git-icon1.png";
 function Footer() {
   return (
     <div className={classes.footer}>
-      <div></div>
       <div className={classes.footer_block}>
         <div>
           <div className={classes.icon}>
@@ -23,7 +22,6 @@ function Footer() {
         </a>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

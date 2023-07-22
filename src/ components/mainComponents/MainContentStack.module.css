@@ -72,3 +72,21 @@
     transform: rotate(0deg);
   }
 }
+
+@media screen and (max-width: 700px) {
+.block1{
+  padding: 2rem;
+}
+.block2{
+  padding: 3rem;
+}
+}
+
+@media screen and (max-width: 400px) {
+.block1{
+  padding: 1rem;
+}
+.block2 {
+  padding: 2rem;
+}
+}

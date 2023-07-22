@@ -10,6 +10,7 @@
 }
 
 .all_pages_container {
+  padding: 0 1rem;
   display: flex;
   transition: translate;
   transition-property: transform;

@@ -131,7 +131,7 @@ function MainBody() {
               </p>
               <ul>
                 <a
-                  href="https://github.com/daxa28/project_React"
+                  href="https://github.com/daxa28/React"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

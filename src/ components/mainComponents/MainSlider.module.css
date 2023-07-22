@@ -39,7 +39,7 @@
   font-weight: 300;
   text-align: center;
   text-shadow: 2px 0 0.5rem #000;
-  width: 37rem;
+  max-width: 37rem;
   display: flex;
   flex-wrap: wrap;
 }

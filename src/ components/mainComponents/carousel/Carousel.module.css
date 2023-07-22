@@ -10,7 +10,6 @@
 }
 
 .all_pages_container {
-  padding: 0 1rem;
   display: flex;
   transition: translate;
   transition-property: transform;
@@ -20,8 +19,9 @@
 }
 
 .arrow {
-  width: 10%;
-  font-size: 1.8rem;
+  margin: 1.4rem;
+  width: 30%;
+  font-size: 3rem;
   cursor: pointer;
   color: gray;
   transition: 1s;

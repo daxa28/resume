@@ -17,7 +17,7 @@
 }
 
 .main_block__content {
-  width: 32rem;
+  max-width: 32rem;
 }
 
 .main_block__content h3 {

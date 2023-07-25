@@ -8,7 +8,7 @@ function Header() {
       <div className={classes.title}>
         Приветствую,
         <br />
-        на сайте-резюме Junior Front-end разработчика!
+        на сайте-резюме Front-end разработчика!
       </div>
      
     </div>

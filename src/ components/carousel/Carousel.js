@@ -1,16 +1,13 @@
-import React, { useEffect, useState, Children, cloneElement } from "react";
+import React, { useState, Children, cloneElement } from "react";
 import classes from "./Carousel.module.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 function Carousel({ children }) {
-  const [pages, setPages] = useState([]);
   const [offset, setOffset] = useState(0);
 
   const PAGE_WIDTH = 100;
 
   const handleLeftArrowClick = () => {
-    console.log("left");
-
     setOffset((currentOffset) => {
       const newOffset = currentOffset + PAGE_WIDTH;
 
@@ -24,8 +21,6 @@ function Carousel({ children }) {
   };
 
   const handleRightArrowClick = () => {
-    console.log("right");
-
     setOffset((currentOffset) => {
       const newOffset = currentOffset - PAGE_WIDTH;
 
@@ -38,19 +33,17 @@ function Carousel({ children }) {
     });
   };
 
-  useEffect(() => {
-    setPages(
-      Children.map(children, (child) => {
-        return cloneElement(child, {
-          style: {
-            height: `${PAGE_WIDTH}%`,
-            minWidth: `${PAGE_WIDTH}%`,
-            maxWidth: `${PAGE_WIDTH}%`,
-          },
-        });
-      })
-    );
-  }, []);
+  const [pages] = useState(
+    Children.map(children, (child) => {
+      return cloneElement(child, {
+        style: {
+          height: `${PAGE_WIDTH}%`,
+          minWidth: `${PAGE_WIDTH}%`,
+          maxWidth: `${PAGE_WIDTH}%`,
+        },
+      });
+    })
+  );
 
   return (
     <div className={classes.main_container}>

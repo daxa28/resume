@@ -1,13 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 html {
-  --blue1-color: #000059;
-  --blue2-color: #5b6dff;
+  --blue1-color: #000045;
+  --blue2-color: #252c62;
 
   font-size: 16px;
+  background-color: rgb(32, 32, 40);
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {

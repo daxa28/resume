@@ -7,21 +7,18 @@ function MainHeader() {
     <div className={classes.main__header}>
       <div className={classes.main__header_block}>
         <div className={classes.title}>
-          Меня зовут Дарья, мне 22 года
-          <br />и мне интересно развиваться в направлении информационных
-          технологий.
-          <p>
-            Образование: Высшее
-            <br />
-            График работы: Полный день
-            <br />
-            <br />
-            Контактная информация
-            <br />
-            email: osadasha201628@gmail.com
-            <br />
-            telegram: <a href="https://t.me/DariaOsadchuk">@DariaOsadchuk</a>
-          </p>
+          <h3>Осадчук Дарья</h3>
+          <br />
+          <br />
+          Возраст: 22 года
+          <br />
+          <br />
+          Образование: Высшее
+          <br />
+          График работы: Полный день
+          <br />
+          <br />
+          Специализация: программист, разработчик
         </div>
         <div className={classes.avatar}>
           <img src={avatar} alt="avatar"></img>

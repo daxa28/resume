@@ -11,15 +11,17 @@
 .main {
   display: grid;
   grid-template-columns: 10% 80% 10%;
-  background: linear-gradient(347deg, var(--blue1-color) 0%, var(--blue2-color) 100%);
+  background: linear-gradient(
+    347deg,
+    var(--blue1-color) 0%,
+    var(--blue2-color) 100%
+  );
   box-shadow: 0 0 0.7rem 0.3rem #000;
   animation: myAnim 1s ease 0s 1 normal forwards;
 }
 
 .main_block {
   animation: myAnim 1s ease 0s 1 normal forwards;
-  display: flex;
-  align-items: center;
 }
 
 .item {
@@ -95,7 +97,11 @@
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  background: linear-gradient(347deg, var(--blue2-color) 0%, var(--blue1-color) 100%);
+  background: linear-gradient(
+    347deg,
+    var(--blue2-color) 0%,
+    var(--blue1-color) 100%
+  );
   box-shadow: 0 0 0.7rem 0.3rem #000;
   transform: translate(0, 10px);
   padding: 1rem;
@@ -116,4 +122,3 @@
   transform: translate(0, -20px);
   transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
 }
-

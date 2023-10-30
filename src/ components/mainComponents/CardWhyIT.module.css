@@ -59,3 +59,11 @@
   }
 }
 
+
+@media screen and (max-width: 400px) {
+  .main_block__image {
+    padding: 1.4rem 0.8rem 0;
+    width: 190px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+}

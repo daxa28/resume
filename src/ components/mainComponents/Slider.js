@@ -1,29 +1,29 @@
 import React from "react";
-import classes from "./MainSlider.module.css";
-import Carousel from "./carousel/Carousel";
+import classes from "./Slider.module.css";
+import Carousel from "../carousel/Carousel";
 import img_slider_1 from "../../img/slider-1.jpg";
 import img_slider_2 from "../../img/slider-2.jpg";
 import img_slider_3 from "../../img/slider-3.jpg";
 
-function MainSlider() {
+function Slider() {
   return (
     <div>
-      <div className={classes.title}>
-        <h3>Философия времени</h3>
-      </div>
       <div className={classes.main}>
         <div></div>
         <div className={classes.main_block}>
+          <div className={classes.title}>
+            <h3>Философия времени</h3>
+          </div>
           <Carousel>
             <div className={classes.item}>
               <div className={classes.image}>
                 <img src={img_slider_1} alt="img-slider-1" />
               </div>
               <div className={classes.content}>
-                <div class={classes.popover__wrapper}>
-                  <p class={classes.popover__title}>Перевод</p>
-                  <div class={classes.popover__content}>
-                    <p class={classes.popover__message}>
+                <div className={classes.popover__wrapper}>
+                  <p className={classes.popover__title}>Перевод</p>
+                  <div className={classes.popover__content}>
+                    <p className={classes.popover__message}>
                       "На самом деле соотношение времени чтения и написания кода
                       превышает 10:1. Мы постоянно читаем свой старый код,
                       поскольку это необходимо для написания нового кода... Если
@@ -46,10 +46,10 @@ function MainSlider() {
             </div>
             <div className={classes.item}>
               <div className={classes.content}>
-                <div class={classes.popover__wrapper}>
-                  <p class={classes.popover__title}>Перевод</p>
-                  <div class={classes.popover__content}>
-                    <p class={classes.popover__message}>
+                <div className={classes.popover__wrapper}>
+                  <p className={classes.popover__title}>Перевод</p>
+                  <div className={classes.popover__content}>
+                    <p className={classes.popover__message}>
                       "Любой дурак может написать код, который поймет компьютер.
                       Хорошие программисты пишут код, который могут понять
                       люди."
@@ -72,10 +72,10 @@ function MainSlider() {
                 <img src={img_slider_3} alt="img-slider-3"></img>
               </div>
               <div className={classes.content}>
-                <div class={classes.popover__wrapper}>
-                  <p class={classes.popover__title}>Перевод</p>
-                  <div class={classes.popover__content}>
-                    <p class={classes.popover__message}>
+                <div className={classes.popover__wrapper}>
+                  <p className={classes.popover__title}>Перевод</p>
+                  <div className={classes.popover__content}>
+                    <p className={classes.popover__message}>
                       "Программирование — это сложно. Основные правила, на
                       которых все строится, очень просты, но по мере разработки
                       программа сама начинает вводить свои правила и законы.
@@ -103,4 +103,4 @@ function MainSlider() {
   );
 }
 
-export default MainSlider;
+export default Slider;

@@ -1,20 +1,24 @@
 import React, { Fragment } from "react";
 import MainHeader from "./mainComponents/MainHeader";
-import MainContentStack from "./mainComponents/MainContentStack";
+import ContentStack from "./mainComponents/ContentStack";
 import MainBody from "./mainComponents/MainBody";
-import MainContentWhyIT from "./mainComponents/MainContentWhyIT";
-import MainSlider from "./mainComponents/MainSlider";
-import MainContentAboutMe from "./mainComponents/MainContentAboutMe";
+import CardWhyIT from "./mainComponents/CardWhyIT";
+import Slider from "./mainComponents/Slider";
+import CardAboutMe from "./mainComponents/CardAboutMe";
+import CardMyProject from "./mainComponents/CardMyProject";
+import Contacts from "./mainComponents/Contacts";
 
 function Main() {
   return (
     <Fragment>
       <MainHeader />
-      <MainContentStack />
+      <ContentStack />
       <MainBody />
-      <MainContentWhyIT />
-      <MainSlider />
-      <MainContentAboutMe />
+      <CardMyProject />
+      <Contacts />
+      <CardAboutMe />
+      <Slider />
+      <CardWhyIT />
     </Fragment>
   );
 }

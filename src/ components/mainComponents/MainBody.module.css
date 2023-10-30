@@ -5,7 +5,7 @@
   grid-template-areas: "a b c";
 }
 
-.main_body_block{
+.main_body_block {
   grid-area: b;
 }
 
@@ -33,7 +33,11 @@
 
 .left {
   animation: myAnim 2s ease 0s 1 normal forwards;
-  background: linear-gradient(347deg, var(--blue1-color) 0%, var(--blue2-color) 100%);
+  background: linear-gradient(
+    347deg,
+    var(--blue1-color) 0%,
+    var(--blue2-color) 100%
+  );
   box-shadow: 0.3rem 0.3rem 0.8rem 0 #000;
   color: #fff;
   font-family: "Noto Sans", sans-serif;
@@ -46,7 +50,11 @@
 
 .right {
   animation: myAnim2 2s ease 0s 1 normal forwards;
-  background: linear-gradient(347deg, var(--blue2-color) 0%, var(--blue1-color) 100%);
+  background: linear-gradient(
+    347deg,
+    var(--blue2-color) 0%,
+    var(--blue1-color) 100%
+  );
   box-shadow: -0.3rem 0.3rem 0.8rem 0 #000;
   color: #fff;
   font-family: "Noto Sans", sans-serif;

@@ -1,12 +1,11 @@
 .footer {
   color: white;
-  background: linear-gradient(347deg, #5b6dff 0%, #000059 100%);
+  background: linear-gradient(347deg, #000045 0%, #000059 100%);
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-template-areas: "a b c";
-  box-shadow: 0 0 0.7rem 0.4rem #000;
+  box-shadow: 0 0 1rem 0.1rem rgb(0, 0, 0);
   font-family: "Noto Sans", sans-serif;
-
 }
 
 .title {

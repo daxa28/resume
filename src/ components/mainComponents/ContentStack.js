@@ -13,23 +13,23 @@ function ContentStack() {
         <div className={classes.value}>CSS</div>
       </div>
       <div className={classes.block2}>
-        <a href="#part1">
+        <a href="#react_redux_typescript">
           <div className={classes.star}>&#10040;</div>
         </a>
         <div className={classes.line}></div>
-        <a href="#part4">
+        <a href="#react_redux_typescript">
           <div className={classes.star}>&#10040;</div>
         </a>
         <div className={classes.line}></div>
-        <a href="#part5">
+        <a href="#react_redux_typescript">
           <div className={classes.star}>&#10040;</div>
         </a>
         <div className={classes.line}></div>
-        <a href="#part5">
+        <a href="#html_css">
           <div className={classes.star}>&#10040;</div>
         </a>
         <div className={classes.line}></div>
-        <a href="#part5">
+        <a href="#html_css">
           <div className={classes.star}>&#10040;</div>
         </a>
       </div>

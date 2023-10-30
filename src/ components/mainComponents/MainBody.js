@@ -10,28 +10,30 @@ function MainBody() {
   return (
     <div className={classes.main_body}>
       <div className={classes.main_body_block}>
-        <div className={classes.block_left}>
-          <div className={`${classes.block_l} ${classes.left}`}>
-            <div className={classes.block_img}>
-              <img src={react_img} alt="react-img"></img>
-            </div>
-            <div className={classes.block_content}>
-              <p>
-                Знаю React, компонентый подход разработки и их жизненный цикл,
-                разбираюсь в рендеринге React DOM, в классовых и функциональных
-                компонентах, писала кастомные хуки. Умею работать с
-                маршрутизацией с помощью библиотеки React Router, понимаю
-                принцип одностраничных веб-приложений (SPA). Работала с
-                компонентами высшего порядка, а также разбираюсь в нововведениях
-                в React 18. Работала с состоянием в React, изучила
-                стейт-менеджер Redux. Для асинхронности использовала как Redux
-                Thunk, так и Redux Saga. Умею работать с библиотекой RTKquery и
-                с пакетом Redux Toolkit. Добавила в свои проекты на React
-                типизацию – пишу на TypeScript.
-              </p>
+        <article id="react_redux_typescript">
+          <div className={classes.block_left}>
+            <div className={`${classes.block_l} ${classes.left}`}>
+              <div className={classes.block_img}>
+                <img src={react_img} alt="react-img"></img>
+              </div>
+              <div className={classes.block_content}>
+                <p>
+                  Знаю React, компонентый подход разработки и их жизненный цикл,
+                  разбираюсь в рендеринге React DOM, в классовых и
+                  функциональных компонентах, писала кастомные хуки. Умею
+                  работать с маршрутизацией с помощью библиотеки React Router,
+                  понимаю принцип одностраничных веб-приложений (SPA). Работала
+                  с компонентами высшего порядка, а также разбираюсь в
+                  нововведениях в React 18. Работала с состоянием в React,
+                  изучила стейт-менеджер Redux. Для асинхронности использовала
+                  как Redux Thunk, так и Redux Saga. Умею работать с библиотекой
+                  RTKquery и с пакетом Redux Toolkit. Добавила в свои проекты на
+                  React типизацию – пишу на TypeScript.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </article>
 
         <div className={classes.block_right}>
           <div className={`${classes.block_r} ${classes.right}`}>
@@ -48,23 +50,25 @@ function MainBody() {
             </div>
           </div>
         </div>
-
-        <div className={classes.block_left}>
-          <div className={`${classes.block_l} ${classes.left}`}>
-            <div className={classes.block_img}>
-              <img src={html_css_img} alt="html-css-img"></img>
-            </div>
-            <div className={classes.block_content}>
-              <p>
-                Знаю HTML и CSS. Есть опыт создания HTML-страниц сайта на
-                основании дизайн-макетов в Figma. Разбираюсь в создании
-                адаптивной верстки (flexbox, grid). В процессе изучения изучила
-                и применила препроцессоры SASS/SCSS, а также CSS модули. Понимаю
-                методологию БЭМ. Знаю Bootstrap и Bootstrap react.
-              </p>
+        <article id="html_css">
+          <div className={classes.block_left}>
+            <div className={`${classes.block_l} ${classes.left}`}>
+              <div className={classes.block_img}>
+                <img src={html_css_img} alt="html-css-img"></img>
+              </div>
+              <div className={classes.block_content}>
+                <p>
+                  Знаю HTML и CSS. Есть опыт создания HTML-страниц сайта на
+                  основании дизайн-макетов в Figma. Разбираюсь в создании
+                  адаптивной верстки (flexbox, grid). В процессе изучения
+                  изучила и применила препроцессоры SASS/SCSS, а также CSS
+                  модули. Понимаю методологию БЭМ. Знаю Bootstrap и Bootstrap
+                  react.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </article>
 
         <div className={classes.block_right}>
           <div className={`${classes.block_r} ${classes.left}`}>
